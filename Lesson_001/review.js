@@ -53,5 +53,5 @@
 
 
 // Primitiveni malumotlarini chaqiradigan bo'lsak valuesi STACK ga borib joylashadi
-// NaNprimitiveni malumotlarini chaqiradigan bo'lsak linki STACK da bo'ladi uni valuesi HEAP ga borib joylashadi
+// NaNprimitiveni malumotlarini chaqiradigan bo'lsak linki (adreess) STACK da bo'ladi uni valuesi (malumoti) HEAP ga borib joylashadi
 
