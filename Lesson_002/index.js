@@ -190,13 +190,23 @@
 // let b = 4;
 // console.log(a < b); // true
 
+// let a = 6;
+// let b = 5;
+// let c = 7
+
+// console.log(a<b);   // false
+// console.log(a<=b);  // false
+// console.log(c>=a);  // true
+// console.log(b<=c);  // true
+// console.log(b>=c);  // false
+
 // let a = 5;
 // let b = 12;
 // console.log(a == b); // false  // == bir biriga tengmi deb soraydi
 
 // let a = 20;
 // let b = 20;
-// console.log(a == b); //true 
+// console.log(a == b); //true
 
 // let a = 2;
 // let b = "2";
@@ -205,3 +215,57 @@
 // let a = 2;
 // let b = 2;
 // console.log(a === b); // true  // === tenglikda bir biriga tengligini va typeofigayam tengligiga qaraydi
+
+//////////////////
+// Asky table
+
+// let a = "A";
+// let b = "a";
+// let c = "b";
+// console.log(a > b); //false
+// console.log(a < b); //true
+// console.log("c" < "b"); //false
+// console.log("c" > "b"); //true
+
+//////////////////
+// ! (inkor)
+
+// let a = 1;
+// let b = 1;
+// console.log(a == b); // !=
+// console.log(a === b); // !==
+// console.log(a != b);
+// console.log(a !== b);
+
+// let check = true;
+// console.log(check);
+// console.log(!check);
+
+//////////////////
+// Logical Operations
+// || Or  ; && And ; ! inkor
+
+// Or (yoki)
+
+// let a = false;
+// let admin = true;
+// console.log(a || admin);
+
+// let a = false;
+// let b = false;
+// console.log(a||b);
+
+// && and
+
+// Europe-university
+
+// let id = true;
+// let face = true;
+// console.log(id && face);
+
+// UZB-university
+
+// let forma = true;
+// let soqol = false;
+// let pul = true;
+// console.log(forma && soqol && pul);

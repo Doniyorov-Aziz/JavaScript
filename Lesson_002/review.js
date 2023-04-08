@@ -30,3 +30,9 @@
 
 // Comparision
 // <,>,==,===,<=,>=,! malumotlarni compare qilish doim true yoki false qiymat qaytaradi 
+
+// harflarni solishtiradigan bolsak asky table ga ko'ra solishtiradi
+//  Asky tableda katta harflardan kichik harflar katta bo'ladi 
+
+// Logical Operations
+// || Or  ; && And ; ! inkor
