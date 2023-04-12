@@ -289,3 +289,4 @@
 // console.log(1 && 2); // 2
 // console.log(undefined && false); // undefined    --> && (and) da ikki tomoniyam false bo'lsa 1- qiymatni ko'rsatadi
 
+// let
