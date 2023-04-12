@@ -14,6 +14,7 @@
 
 /// true = !0,!null,!undefined
 // true = 1  false = 0
+// false ifodalaydigan qiymatlar = 0,null,undefined,false,NaN , '' (bo'sh string)
 
 // Basic operators, maths
 // Addition +         // malumotni qo'shish
@@ -22,17 +23,19 @@
 // Division /         // malumotni bo'lish
 // Remainder %        // malumotni qoldig'ini chiqarish
 // Exponentiation **  // malumotni kvadratga ko'paytirish
-// Braces ()          
+// Braces ()
 // Equality = ; == ; === ;
 // Obrivations += ; -= ; /= ; *= ;  // qisqartma shakli
 // Icrement ++
 // Decrement --
 
 // Comparision
-// <,>,==,===,<=,>=,! malumotlarni compare qilish doim true yoki false qiymat qaytaradi 
+// <,>,==,===,<=,>=,! malumotlarni compare qilish doim true yoki false qiymat qaytaradi
 
 // harflarni solishtiradigan bolsak asky table ga ko'ra solishtiradi
-//  Asky tableda katta harflardan kichik harflar katta bo'ladi 
+//  Asky tableda katta harflardan kichik harflar katta bo'ladi
 
 // Logical Operations
 // || Or  ; && And ; ! inkor
+
+// number , parsInt , parsFloat bularni ishlatishdan maqsad stringdagi malumotlarni Numberga o'tqazish

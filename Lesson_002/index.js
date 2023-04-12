@@ -269,3 +269,23 @@
 // let soqol = false;
 // let pul = true;
 // console.log(forma && soqol && pul);
+
+// let data1 ={name : "web"}
+// let data2 ={name : "web"}
+// console.log(data1==data2);
+// console.log(data1===data2);
+
+// console.log(!Boolean("web"));  //false
+
+// let count = 1;
+// console.log(++count); // 2
+// count--;
+// count -= 2;
+// count++;
+// console.log(count); // 0
+// console.log(++count); // 1
+
+// console.log(false || 0); // 0    --> || (orda) 2ta tomoniyam false bo'lsa ikkichi qiymatni chiqaradi
+// console.log(1 && 2); // 2
+// console.log(undefined && false); // undefined    --> && (and) da ikki tomoniyam false bo'lsa 1- qiymatni ko'rsatadi
+
