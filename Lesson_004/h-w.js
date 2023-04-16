@@ -176,7 +176,7 @@
 
 /////////////////////
 
-// for (let i = 2; i <= 100; i++) {
+// for (let i = 2; i <= 200; i++) {
 //   let tub = true;
 //   for (let j = 2; j < i; j++) {
 //     if (i % j === 0) {
@@ -188,3 +188,14 @@
 //     console.log(i);
 //   }
 // }
+
+// let k = "Webbrain";
+// for (i = 0; i < k.length; i++) {
+//   console.log(k[i]);
+// }
+
+// for (i = 0; i < 15; i++) {
+//   console.log(i);
+// }
+
+

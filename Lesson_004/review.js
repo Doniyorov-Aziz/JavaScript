@@ -11,8 +11,8 @@
 // ForLoop..-> ittaratsiya yani aylantirish
 // / Loop....-> bitta narsani qayta qayta doimiy qilinishi yoki nimadur doimiy harakatda bo'lishi
 
-// for ni ucha parametri mavjud (boshlanish;manzil;step)
-// ikkichi shartimz yani manzil false qaytargan vaqti forloop yuriwni toxtatadi
+// for ni uchta parametri mavjud (boshlanish;manzil;step)
+// ikkinchi shartimz yani manzil false qaytargan vaqti forloop yuriwni toxtatadi
 
 // let i = 1
 // for (i; i < 10; i = i + 1) {  <-- birga oshirish yoli
