@@ -68,3 +68,36 @@
 // do {
 //   console.log("working");
 // } while (sum > 0);
+
+// let m = 12442;
+// let sum = 0;
+// while (m > 0) {
+//   sum += m % 10;
+//   m = parseInt(m / 10);
+// }
+// console.log(sum);
+
+// function
+
+// function decloration
+// function getAvr(){
+//     console.log("Abdulloh , Welcome to webbrain");
+// }
+// getAvr()   // 1- usul
+
+// getAvr()   // 2- usul
+// function getAvr(){
+//     console.log("Aziz, Welcome to Webbrain");
+// }
+
+// function expression
+
+// const getAvr = function (){
+//     console.log("hello Abdulloh");
+// }
+// getAvr()
+
+// getAvr()  // <-- mumkin emas HOISTIING ga uchraydi
+// let getAvr = function(){
+//     console.log("welcome to webbrain");
+// }
