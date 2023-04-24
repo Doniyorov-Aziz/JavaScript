@@ -92,20 +92,64 @@
 // console.log(Math.round(2.7));  // 3
 
 //==============
-// floor()   butun qismini chiqaradi  yani o'zagini 
+// floor()   butun qismini chiqaradi  yani o'zagini
 // console.log(Math.floor(10.1));   // 10
 // console.log(Math.floor(10.999)); // 10
+// console.log(Math.floor(-10.3));  // 11
 
 //==============
-// ceil()  butun qismiga 1 qo'shib chiqaradi
+// ceil()  butun sondan bitta keyingi sonni chiqarib beradi
 // console.log(Math.ceil(10.001));  // 11
-// console.log(Math.ceil(10.2));  // 11
-// console.log(Math.ceil(10.7));  // 11
+// console.log(Math.ceil(10.2));    // 11
+// console.log(Math.ceil(10.7));    // 11
 
 //==============
-
+// trunc() faqat butun qismini oladi kasr qismini qirqib tashlaydi
+// console.log(Math.trunc(-21.4231));   // -21
+// console.log(Math.trunc(11.999));     // 11
+// console.log(Math.trunc(7.3));        // 7
 
 //==============
+// random() o bilan 1 orasidagi ixtiyoriy sonni chiqarib beradi
+// console.log(Math.random());
+
+// console.log(Math.trunc(Math.random() * 10));
+// console.log(Math.trunc(Math.random() * 100));
+// console.log(Math.trunc(Math.random() * 1000));
+// console.log(Math.trunc(Math.random() * 10000));
+
+//==============
+// min() va max()  bu sonni eng kichigini va eng kattasini olib beradi
+
+// console.log(Math.min(2,12,43,6,48,1)); // 1
+// console.log(Math.max(2,12,43,6,48,1)); // 48
+
+//==============
+// pow()   darajaga ko'taradi
+
+// console.log(Math.pow(2 , 3)); // 8
+// console.log(Math.pow(5 , 3)); // 125
+
+//==============
+// sqrt() kvadrat ildizdan chiqaradi
+
+// console.log(Math.sqrt(4));  // 2
+// console.log(Math.sqrt(25)); // 5
+
+//==============
+// cbrt() kub ildizdan chiqaradi
+
+// console.log(Math.cbrt(125));  // 5
+// console.log(Math.cbrt(8)); // 2
+
+//==============
+// sign   bu bizga 3 ta qiymat qaytaradi (1 , -1 , 0)
+// musbat bo'lsa 1 , manfiy bo'lsa -1 , 0 bo'lsa 0 qaytaradi
+
+// console.log(Math.sign(23));   // 1
+// console.log(Math.sign(-15));  // -1
+// console.log(Math.sign(0));    // 0
+// console.log(Math.sign(-0));    // -0
 
 //==============
 
