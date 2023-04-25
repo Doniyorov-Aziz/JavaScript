@@ -22,8 +22,8 @@
 // console.log(parseInt(num));  // string ichidagi arifmetik amallarni bajarishda parseInt faqat birinchi sonni oladi
 
 //==============
-
 // numberni benaryga o'tqazish
+
 // let num = 5
 // console.log(num.toString(2));
 
