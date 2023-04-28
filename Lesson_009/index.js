@@ -217,7 +217,21 @@
 // console.log(str.replace("web","Web"));
 
 // let str = "web brain web academy";
-// console.log(str.replace(/Web/i, "WEB"));  
+// console.log(str.replace(/Web/i, "WEB"));  // i bunda ignor qiladi
 
 // let str = "web brain web academy"
-// console.log(str.replace(/Web/gi,"WEB"));  
+// console.log(str.replace(/Web/gi,"WEB"));  // gi bunda global degani
+
+//===============
+
+// let str = "web brain academy"
+// for (char of str){
+//     console.log(char);
+// }
+
+//===============
+
+// let str = "web brain academy it center";
+// console.log(str.split(" ", 3));  // 'web' , 'brain' , 'academy'
+
+// 2-parametiri limit bu qancha element kerak ekanligi ko'rsatiladi

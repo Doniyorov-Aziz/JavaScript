@@ -46,6 +46,7 @@
 // concat (concationation) bu 2 ta stringni bir biriga qo'shib beradi va vergil bilan ixtiyory so'zni qo'shib ketsak bo'ladi
 // new Stringni faqat gina valeusini olish uchun valueOf() dan foydalanamiz
 // replace() bu string ichidagi malumotni o'zgartirmoqchi bo'lsak foydalanamiz va u 2 ta qiymat qabul qiladi 1-si o'zgartirmoqchi bo'lgan qiyamt 2-si yangi qiymat
+// for da char of bu har bir elementga birma bir kirsa bo'ladi
 
 
 
