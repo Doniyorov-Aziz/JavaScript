@@ -26,4 +26,15 @@
 
 //=============
 
+// function bde() {
+//   num = Math.trunc((Math.random() * 100) / 2);
+//   if (num == 0) {
+//     console.log(50);
+//   } else {
+//     console.log(num);
+//   }
+// }
 
+// bde();
+
+//=============
