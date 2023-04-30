@@ -115,3 +115,90 @@
 
 // =================
 
+// console.log(Array.isArray());   // false
+// console.log(Array.isArray(0));  // false
+// console.log(Array.isArray([])); // true
+
+// =================
+
+// let ar = [];
+// console.log(ar == 0);   // true
+// console.log(ar == "0"); // false
+
+// =================
+
+// let user = ["Abdulloh", "Bunyod", "Azizbek", "Sardor"];
+// console.log(user[0]);
+// console.log(user[1]);
+// console.log(user[2]);
+// console.log(user[3]);
+
+// =================
+
+// let user = ["Abdulloh", "Bunyod", "Azizbek", "Sardor"];
+// for (let i = 0; i < user.length; i++) {
+//     console.log(user[i]);
+// }
+
+// =================
+
+// let user = ["Abdulloh", "Bunyod", "Azizbek", "Sardor", "Webbrain"];
+// for (let i = 0; i < user.length; i += 2) {
+//   console.log(user[i]);
+// }   // Abdulloh , Azizbek , Webbrain
+
+// =================
+
+// let user = ["Abdulloh", "Bunyod", "Azizbek", "Sardor", "Webbrain"];
+// for (let i = 1; i < user.length; i += 2) {
+//   console.log(user[i]);
+// }   // Bunyod , Sardor
+
+// =================
+// for of bundan bizga faqatgina value keladi
+
+// let user = ["Abdulloh", "Bunyod", "Azizbek", "Sardor", "Webbrain"];
+// for (value of user){
+//     console.log(value);
+// }
+
+// =================
+// for in bundan bizga faqat index keladi yani nechtaligi
+
+// let user = ["Abdulloh", "Bunyod", "Azizbek", "Sardor", "Webbrain"];
+// for (index in user){
+//     console.log(index);
+// }
+
+// =================
+// push()  // array oxiridan yangi malumot qo'shish
+
+// let ar = [1,2,3,4]
+// ar.push(5)
+
+// console.log(ar);   // 1,2,3,4,5
+
+// let ar = [1, 2, 3, 4];
+// ar.push(5);
+// ar.push(6);
+
+// console.log(ar); // 1,2,3,4,5,6
+
+// let ar =[1,2,3,4]
+// ar.push([5,6,7])
+
+// console.log(ar); // 1,2,3,4, [ 5, 6, 7 ]
+
+// =================
+// pop()   // bu array ni eng oxirida turgan qiymatini o'chirib yuboradi
+
+// let ar = [1,2,3,4,5,6]
+// ar.pop()
+// console.log(ar);  // 1,2,3,4,5
+
+// let ar = [1,2,3,4,5,6]
+// ar.push(7, 8);
+// ar.pop()
+// console.log(ar);  // 1,2,3,4,5,6,7
+
+// =================

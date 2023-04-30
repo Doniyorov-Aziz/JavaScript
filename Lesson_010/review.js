@@ -4,3 +4,9 @@
 // join bu malumotlar o'rtasida qo'shimcha amal bajarish imkoniyatini yaratib beradi
 // concat (concatination) yani bu arraylarni bir biriga qo'shish uchun ishlatiladi
 // Array.isArray bilan biz arraylarni typeofini aniqlaymiz
+
+// ==================
+
+// Array Methods
+// push() bu array oxiridan yangi malumot joylashtirish
+// pop()  bu array ni eng oxirida turgan qiymatini yani malumotni o'chirib yuboradi
