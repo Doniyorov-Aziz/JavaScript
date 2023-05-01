@@ -202,3 +202,82 @@
 // console.log(ar);  // 1,2,3,4,5,6,7
 
 // =================
+// unshift() bu array bowidan malumot qo'shadi
+
+// let ar = [1,2,3,4]
+// ar.unshift(0)
+// console.log(ar);    // [ 0,1,2,3,4 ]
+
+// =================
+// unshift() bu array bowidan malumot o'chiradi
+
+// let ar = [1,2,3,4]
+// ar.shift()
+// console.log(ar);    // [ 2,3,4 ]
+
+// =================
+// splice() bu arrayga yangi malumot qo'shadi , yangi malumot biriktiradi va ichidagi malumotni o'chiradi
+
+// let ar = [1, 2, 3, 4, 5];
+// ar.splice(0, 2);
+
+// console.log(ar); // 3,4,5   // malumot qirqish
+
+// let ar = [1, 2, 3, 4];
+// ar.splice(0, 1, "webbrain academy");
+
+// console.log(ar); // [ "webbrain academy" ,2,3,4]  // malumot qirqib va yangi malumot qo'shish
+
+// let ar = [1, 2, 4, 5];
+// ar.splice(2, 0, 3);
+
+// console.log(ar); // [ 1,2,3,4,5]  malumot qo'shish
+
+// =================
+// indexOf() bu arrayni ichida malumot bor bo'lsa indexini chiqarib beradi yo'q bo'lsa -1 chiqaradi
+
+// let ar = [1, 2, 3, 4];
+
+// console.log(ar.indexOf(1));   // 0 - indexda 1 bor
+
+// let ar1=[2,3,4,5]
+
+// console.log(ar1.indexOf(1));   // -1 chunki 1 degan qiymat yo'q
+
+// let ar1 = [2, 3, 4, 5, 2];
+
+// console.log(ar1.indexOf(2, 2));  // 4  bunda 4-indexda ham 2 bor degani (2- bergan parametirimz qayerdan boshlash kerak ekanligini bildiradi)
+
+// =================
+// lastIndexOf() bu array ichidan eng oxiridan boshlab indexini chiqarib beradi
+
+// let ar = [1, 2, 3, 4, 1];
+
+// console.log(ar.indexOf(1)); // 0
+// console.log(ar.lastIndexOf(1)); // 4 (sababi lastindexof oxiridan boshlab chiqaradi)
+
+// =================
+// split() bu stringni arrayga o'tkazadi
+
+// let ar = "1,23,4,5"
+
+// console.log(ar.split()); // [ '1,23,4,5' ]
+
+// let ar = "1,23,4,5"
+
+// console.log(ar.split(""));  // bunda harbir sonni va hattoki vergulniyam arrayga o'tkazadi
+
+// let ar = "1,23,4,5"
+
+// console.log(ar.split(",")); // bunda vergul ko'rishi bilan shungacha bo'lgan malumotni arrayga o'tkazadi
+
+// =================
+// reverse() bu malumotni teskarisiga chiqarib beradi
+
+// let ar = [1, 2, 3, 4];
+// ar.reverse();
+
+// console.log(ar); // 4,3,2,1
+
+// =================
+// includes() bu biz qidirgan malumot bor bo'lsa true yo'q bo'lsa false qaytaradi

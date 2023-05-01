@@ -10,3 +10,12 @@
 // Array Methods
 // push() bu array oxiridan yangi malumot joylashtirish
 // pop()  bu array ni eng oxirida turgan qiymatini yani malumotni o'chirib yuboradi
+// unshift() bu array boshidan malumot qo'shadi
+// shift() bu array boshidan malumotni o'chiradi
+// splice() bu arraydagi malumotni o'chirsa bo'ladi , yangi malumot qo'shsa bo'ladi va yangi malumot biriktrsa bo'ladi
+// slice() bu
+// indexOf() bu array ichida malumot bor bo'lsa indexini chiqarib beradi yo'q bo'lsa -1 chiqarib beradi
+// split() bu stringni arrayga o'tkazish uchun ishlatiladi
+// reverse() bu malumotni o'ngdan chapga qarab chiqarib beradi yani teskarisi
+// includes() bu array ichida biz yozgan malumot bor yoki yo'qligini tekshiradi va bizga true va false qaytaradi
+
