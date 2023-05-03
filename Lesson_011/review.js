@@ -12,6 +12,7 @@
 // reduce(sum,current,i) bu returnga biz qanday shart bersak shu javob chiqadi
 // multidimentional bu array ichida array kelishiga aytiladi
 // flat bu ichma ich kelgan arraylarni parentidan chiqarish uchun ishlatamiz va cheksiz qiyamti kerak bo'lsa infinity qiymatini qabul qiladi
+// from bu array bo'lmagan malumotni arrayga o'tkazib beradi
 
 
 

@@ -293,3 +293,27 @@
 
 // let a = [1, 2, [3, 4, [5, [6, 7]]], 8];
 // console.log(a.flat(Infinity)); // infinity bu cheksiz ichma ich array kelsaham barini ignor qib arraydan chiqarib beradi
+
+// ===================
+// from bu array bo'lmagan malumotni arrayga o'tkazib beradi
+
+// console.log(Array.from("webbrain academy"));
+
+// console.log(Array.from("webbrain", (v) => v.toUpperCase()));
+
+// ===================
+// new Array
+
+// console.log(new Array(1, 2, 3)); // [ 1, 2, 3 ]
+
+// ===================
+// entries()
+
+// let obj = new Map([
+//   ["a", 1],
+//   ["b", 2],
+// ]).entries();
+
+// console.log(obj.next()); //  ['a',1] done: false
+// console.log(obj.next()); //  ['b',2] done: false
+// console.log(obj.next()); //  undefined , done : true  
