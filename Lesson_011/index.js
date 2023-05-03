@@ -195,3 +195,101 @@
 // let num = [1, 2, 3, "31", 23, 14];
 // let res = num.every((value) => typeof value === "number");
 // console.log(res); // false
+
+// ===================
+// some() bu everyni teskarisi yani ichida noto'g'ri malumot bo'lsa bizga true qaytaradi
+
+// let num = [1, 2, 3, 14];
+// let res = num.some((value) => typeof value === "string");
+// console.log(res); // false
+
+// let num = [1, 2, 3, "21", 14];
+// let res = num.some((value) => typeof value === "string");
+// console.log(res); // true
+
+// ===================
+// fill() malumotni o'zgartirish uchun ishlatamiz va u 3 ta qiymatgacha qabul qiladi
+
+// let num = [1, 2, 43, 54, "66", 7];
+// let res = num.fill("wba", 3);
+// console.log(res);  // 1,2,43,'wba','wba','wba'
+
+// let num = [1, 2, 43, 54, "66", 7];
+// let res = num.fill(66, 4, 5);
+// console.log(res); // 1,2,43,54,66,7
+
+// ===================
+// copyWithin  bu malumotni copy qilib qo'yadi va 3 ta qiymat qabul qiladi birinchisi qayerdan boshlashi 2- qiymat qaysi qiymatni copy qilishi 3- qiymat shu copy qilinadigan malumotni qayergacha copy qilishi
+
+// let a = [0, 0, 0, 1, 2, 3, 4, 5, 6, 7];
+// let res = a.copyWithin(0, 3, 6);
+// console.log(res); // 1,2,3,1,2,3,4,5,6,7
+
+// let a = [0, 0, 0, 1, 2, 3, 4, 5, 6, 7];
+// let res = a.copyWithin(8, 3, 6);
+// console.log(res); // 0,0,0,1,2,3,4,5,1,2
+
+// ===================
+// reduce()
+// reduce(callback, initialvalue)
+
+// let a = [2, 1, 4, 54, 3, 21];
+// let res = a.reduce((sum, current) => {
+//   console.log(sum);
+//   return 1;
+// }, 0);  // 0,1,1,1,1,1  // sababi biz birnchi qiymat berepmiz sum ga 0 deb kn returnga biz qanday shart bersak shu amalga oshadi
+
+// let a = [2, 1, 4, 54, 3, 21];
+// let res = a.reduce((sum, current) => {
+//   console.log(sum);
+//   return sum + current;
+// });
+// console.log(res); // 2,3,7,61,64,85  // returnga biz sum bilan currentni yig'indisini chiqarib berishini aytdik va shu qiymat chiqadi
+
+// let num = [1, 2, 3, 4, 5];
+// let res = num.reduce((sum, current, i) => {
+//   console.log(i, sum, i - sum);
+//   return i - sum;
+// }, 0);
+// console.log(res); // 2
+
+// let num = [1, 2, 3, 4, 5];
+// let res = num.reduce((sum, current, i) => {
+//   console.log(sum, i, sum - i);
+//   return sum - i;
+// }, 0);
+// console.log(res); // -10
+
+// let num = [1, 2, 3, 4, 5];
+// let res = num.reduce((sum, current, i) => {
+//   console.log(current, i, current - i);
+//   return current - i;
+// }, 0);
+// console.log(res); // 1
+
+// ===================
+// multidimentional bu array ichida array kelishiga aytiladi
+
+// let ar = [1, [2, 3, 4], 5, 6, 7];
+// console.log(ar[3]); // 6
+
+// let ar = [1, [2, 3, 4], 5, 6, 7];
+// console.log(ar[1]); // [2, 3, 4]
+
+// let ar = [1, [2, 3, 4], 5, 6, 7];
+// console.log(ar[1][0]); // 2
+
+// let ar = [1, [2, 3, 4], 5, 6, 7];
+// console.log(ar[1][1]); // 3
+
+// let ar = [1, [2, 3, 4], 5, 6, 7];
+// console.log(ar[1][2]); // 4  // bu array ichida array bo'lsa va shu 2- arrayni ichidagi indexni chaqirish usuli
+
+// ===================
+// flat bu ichma ich kelgan arraylarni parentidan chiqarish uchun ishlatamiz va cheksiz qiyamti kerak bo'lsa infinity qiymatini qabul qiladi
+
+// let a = [1, 2, [3, 4, [5, [6, 7]]], 8];
+// console.log(a.flat(3)); // 3 berganimni sababi chunki array ichida 3 ta array qatnashgan va barini arraydan chiqarib beradi
+
+// let a = [1, 2, [3, 4, [5, [6, 7]]], 8];
+// console.log(a.flat(Infinity)); // infinity bu cheksiz ichma ich array kelsaham barini ignor qib arraydan chiqarib beradi
